@@ -3,6 +3,7 @@
 	margin: 0;
 	padding: 0;
 	font-family: 'Raleway', sans-serif;
+	font-family: 'Roboto', sans-serif;
 }
 
 
@@ -30,6 +31,7 @@ body{
 	margin-left: 234px;
 }
 .header .box_velcom{
+
 	background-color:  #fff51f;
 	width: 220px;
 	height: 300px;
@@ -42,6 +44,7 @@ body{
 
 }
 .header .box_velcom h4{
+	font-family: 'Raleway';
 	color:  #333333;
 	text-transform: uppercase;
 	font-size: 30px;/* Приближение из-за подстановки шрифтов */
@@ -52,6 +55,7 @@ body{
 	margin-bottom: 24px;
 }
 .header .box_velcom p{
+	font-family: 'Raleway';
 	color:  #333333;
 	font-size: 18px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
@@ -69,6 +73,7 @@ body{
 }
 
 .header .text h3{
+	font-family: 'Raleway';
 	color:  #fff51f;
 	font-size: 48px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
@@ -77,6 +82,7 @@ body{
 }
 
 .header .text p{
+	font-family: 'Raleway';
 	color:  #fff51f;
 	font-size: 18px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 400;
@@ -84,6 +90,7 @@ body{
 	text-align: left;
 }
 .header .but_buy{
+	font-family: 'Raleway';
 	display: block;
 	text-decoration: none;
 	background-color: #fff51f;
@@ -222,6 +229,7 @@ body{
 	width: 250px;
 	height: 235px;
 	margin: 10px;
+	position: relative;
 }
 .products .pr_price .pr_text{
 	display: block;
@@ -239,6 +247,7 @@ body{
 	margin-top: 5px;
 }
 .products .pr_price .pr_cost{
+	display: block;
 	font-family: Roboto;
 	color:  #333333;
 	font-size: 18px;/* Приближение из-за подстановки шрифтов */
@@ -248,4 +257,61 @@ body{
 	float: right;
 	margin-top: 5px;
 	margin-right: 25px;
+}
+.products .pr_price .old_cost{
+	display: block;
+	font-family: Roboto;
+	color:  #e24602;
+	font-size: 14px;
+	font-weight: 900;
+	font-style: italic;
+	float: right;
+	margin-top: 8px;
+	margin-right: 22px;
+	text-decoration: line-through;
+}
+.products .top_pr{
+	width: 870px;
+	height: 400px;
+}
+.products .sale_pr{
+	width: 870px;
+	height: 400px;
+}
+.new{
+	width: 46px;
+	height: 46px;
+	background-image: url(img/New.png);
+	position: absolute;
+	left: 214px;
+	top: -10px;
+}
+.new p{
+	display: block;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 9px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-left: 21px;
+}
+.hot{
+	width: 46px;
+	height: 46px;
+	background-image: url(img/Hot.png);
+	position: absolute;
+	left: 214px;
+	top: -10px;
+}
+.hot p{
+	font-family: Roboto;
+	color:  #000000;
+	font-size: 9px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-left: 21px;
 }
