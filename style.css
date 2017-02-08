@@ -5,8 +5,6 @@
 	font-family: 'Raleway', sans-serif;
 	font-family: 'Roboto', sans-serif;
 }
-
-
 body{
 	color: #f9f9f9;
 }
@@ -109,7 +107,7 @@ body{
 }
 .content{
 	background-color: #f9f9f9;
-	height: 2034px;
+	/*height: 2034px;*/
 	width: 1500px;
 	padding: 0 165px;
 	box-sizing: border-box;
@@ -190,7 +188,6 @@ body{
 .products{
 	background-color:  #f8f8f8;
 	width: 870px;
-	height: 1834px;
 	overflow: hidden;
 	position: relative;
 	top: -20px;
@@ -277,6 +274,7 @@ body{
 .products .sale_pr{
 	width: 870px;
 	height: 400px;
+	margin-bottom: -10px;
 }
 .new{
 	width: 46px;
@@ -314,4 +312,66 @@ body{
 	text-transform: uppercase;
 	padding-top: 10px;
 	padding-left: 21px;
+}
+.content .brand{
+	background-color:  #ffffff;
+	width: 1170px;
+	height: 160px;
+	
+}
+.content .brand img{
+	margin-top: 70px;
+	margin-left: 14px;
+}
+.content .social{
+	background-color:  #eaeaea;
+	width: 1170px;
+	height: 350px;
+	clear: both;	
+}
+.content .social .insta{
+	display: block;
+	width: 28px;
+	height: 28px;
+	background-image: url(img/insta icon.png);
+	float: left;
+	margin-top: 51px;
+	margin-left: 449px;
+}
+.social .soc_text{
+	display: block;
+	float: right;
+	margin-top: 54px;
+	margin-right: 447px;
+	font-family: Roboto;
+	color:  #333333;
+	font-size: 22px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+}
+.social .soc_text .soc_text_s{
+	font-family: Roboto;
+	color:  #333333;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 900;
+	font-style: italic;
+	text-align: left;
+}
+.social .soc_img{
+	float: left;
+	width: 1170px;
+	margin-top: 29px;
+}
+.social .soc_img ul{
+
+	text-align: justify;
+	text-align-last: justify;
+}
+.social .soc_img ul li{
+	display: inline-block;
+	background-color: #ffffff;
+	width: 185px;
+	height: 185px;
+	/*margin-top: 29px;*/
 }
