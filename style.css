@@ -107,7 +107,7 @@ body{
 }
 .content{
 	background-color: #f9f9f9;
-	height: 2570px;
+	height: 2291px;
 	width: 1500px;
 	padding: 0 165px;
 	box-sizing: border-box;
@@ -415,4 +415,230 @@ body{
 .soc_seti .soc_3 img{
 	margin-top: 43px;
 	margin-left: 163px;
+}
+
+.footer{
+	width: 1500px;
+	height: 395px;
+}
+.footer .f_content{
+	background-color:  #373737;
+	width: 1500px;
+	height: 348px;
+	padding-top: 75px;
+	box-sizing: border-box;
+}
+.footer .f_end{
+	background-color:  #333333;
+	width: 1500px;
+	height: 47px;
+}
+.footer .f_category{
+	width: 84px;
+	height: 162px;
+	float: left;
+	margin-left: 192px;
+	text-transform: capitalize;
+
+}
+.footer .f_category h3{
+	display: block;
+	margin-bottom: 
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: 700;
+	text-align: left;
+	margin-bottom: 28px;	
+}
+.footer .f_category ul{
+	list-style-type: none;
+}
+.footer .f_category ul li{
+	list-style-type: none;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.footer .f_account{
+	width: 113px;
+	height: 162px;
+	float: left;
+	margin-left: 114px;
+}
+.footer .f_account h3{
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: center;
+	display: block;
+	margin-bottom: 30px;
+}
+.footer .f_account ul{
+	text-transform: capitalize;
+}
+.footer .f_account ul li{
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	list-style-type: none;
+}
+.footer .f_support{
+	width: 106px;
+	height: 162px;
+	float: left;
+	margin-left: 87px;
+}
+.footer .f_support h3{
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+	display: block;
+	margin-bottom: 27px;
+}
+.footer .f_support ul{
+	text-transform: capitalize;
+}
+.footer .f_support ul li{
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	list-style-type: none;
+}
+
+.footer .f_about{
+	width: 232px;
+	height: 162px;
+	float: right;
+	margin-right: 191px;
+}
+.footer .f_about h3{
+	display: block;
+	margin-bottom: 7px;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	text-align: left;
+	text-transform: capitalize;
+}
+.footer .f_about .text{
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 12px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.footer .f_about .phone{
+	display: block;
+	float: left;
+	width: 42px;
+	height: 11px;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 23.4px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: 14px;
+}
+.footer .f_about .p_number{
+	display: block;
+	float: left;
+	width: 99px;
+	height: 10px;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-top: 14px;
+	margin-left: 18px;
+}
+.footer .f_about .mail{
+	display: block;
+	float: left;
+	clear: both;
+	margin-top: 15px;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 23.4px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.footer .f_about a{
+	display: block;
+	float: left;
+	margin-top: 16px;
+	margin-left: 19px;
+	text-decoration: none;
+	font-family: Roboto;
+	color:  #faef03;
+	font-size: 14px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 22px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+}
+.footer .f_nc{
+	width: 266px;
+	height: 162px;
+	float: right;
+	margin-right: 45px;
+}
+.footer .f_nc h3{
+	display: block;
+	font-family: Raleway;
+	color:  #ffffff;
+	font-size: 18px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	text-transform: capitalize;
+	margin-bottom: 8px;
+}
+.footer .f_nc .text{
+	display: block;
+	width: 195px;
+	height: 22px;
+	font-family: Roboto;
+	color: #f8f8f8;
+	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 12px; /* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	margin-bottom: 20px;
+}
+.footer .f_nc form input{
+	background-color: #fff51f;
+	width: 180px;
+	height: 30px;
+	padding-left: 21px;
+	box-sizing: border-box;
+}
+.footer .f_nc form input[placeholder]{
+	font-family: Roboto;
+	color:  #333333;
+	font-size: 12px;/* Приближение из-за подстановки шрифтов */
+	font-weight: 700;
+	line-height: 21px;/* Приближение из-за подстановки шрифтов */
+	text-align: left;
+	text-transform: uppercase;
+}
+.footer .f_nc form input:focus::-webkit-input-placeholder{
+	color: transparent;
 }
