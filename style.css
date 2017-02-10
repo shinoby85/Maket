@@ -629,6 +629,7 @@ body{
 	height: 30px;
 	padding-left: 21px;
 	box-sizing: border-box;
+	margin-right: -4px;
 }
 .footer .f_nc form input[placeholder]{
 	font-family: Roboto;
@@ -641,4 +642,19 @@ body{
 }
 .footer .f_nc form input:focus::-webkit-input-placeholder{
 	color: transparent;
+}
+.footer .f_nc form button{
+	background-color: #000000;
+	width: 71px;
+	height: 30px;
+	font-family: Roboto;
+	color: #ffffff;
+	font-size: 12px; /* Приближение из-за подстановки шрифтов */
+	font-weight: 400;
+	line-height: 21px; /* Приближение из-за подстановки шрифтов */
+	text-align: center;
+
+	}
+.footer .f_nc form button:hover{
+	cursor: pointer;
 }
