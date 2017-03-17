@@ -126,6 +126,7 @@ body{
 	top: -20px;
 	margin: 40px auto;
   padding:10px;
+    box-sizing: border-box;
   
 }
 
@@ -192,8 +193,9 @@ body{
 	line-height: 43px;
 	text-transform: uppercase;
 	text-decoration: none;
+    box-sizing: border-box;
 	padding-left: 40px;
-		
+	box-sizing: border-box;	
 }
 .menu li a:hover{
   font-family: Roboto;
@@ -270,6 +272,7 @@ text-align: left;
 	text-transform: uppercase;
 }
 .products{
+    margin-left: 30px;
 	background-color:  #f8f8f8;
 	width: 870px;
 	overflow: hidden;
@@ -282,10 +285,12 @@ text-align: left;
     background-color: #f8f8f8;
     width: 870px;
     height: 778px;
+    
 }
 
-.new_pr oduct .product_text_box {
+.new_product .product_text_box {
     display: block;
+    overflow: hidden;
     font-family: Roboto;
     color: #707070;
     font-size: 22px;
@@ -300,9 +305,11 @@ text-align: left;
     float: left;
     height: 700px;
     width: 870px;
+    text-align: justify;
+    text-align-last: justify;
 }
 .new_product .np_content .np_blok {
-    float: left;
+    display: inline-block;
     background-color:  #ffffff;
 width: 270px;
 height: 320px;
