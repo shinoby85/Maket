@@ -244,6 +244,9 @@ text-align: left;
 
 
 
+
+
+
 .blok_data{
 	background-color: #e0e0e0;
 	width: 270px;
@@ -273,6 +276,53 @@ text-align: left;
 	position: relative;
 	top: -20px;
 }
+
+
+.new_product {
+    background-color: #f8f8f8;
+    width: 870px;
+    height: 778px;
+}
+
+.new_pr oduct .product_text_box {
+    display: block;
+    font-family: Roboto;
+    color: #707070;
+    font-size: 22px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    text-align: left;
+    text-transform: uppercase;
+    margin: 25px 31px;
+}
+.new_product .np_content {
+    float: left;
+    height: 700px;
+    width: 870px;
+}
+.new_product .np_content .np_blok {
+    float: left;
+    background-color:  #ffffff;
+width: 270px;
+height: 320px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .products .new_pr{
 	width: 870px;
 	height: 748px;
