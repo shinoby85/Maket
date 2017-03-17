@@ -195,12 +195,16 @@ body{
 	padding-left: 40px;
 		
 }
-.menu li a:hover{
-  color: #000;
-  background-color: #2F54FF;
+.menu li a+{
+  width: 270px;
+  height: 43px;
+  display: none;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
-.menu li:hover/*,
-.menu ul li a:hover*/{
+.menu li a:hover,
+.menu ul li a:hover{
 	background-color:  #333333;
 	font-family: Roboto;
 	color:  #ffffff;
@@ -217,7 +221,7 @@ body{
 	line-height: 36px;/*36*/
 	
 }
-.menu li:hover ul li {
+.menu a:hover ~ ul li {
   margin-top: 0;
   -moz-transition: 0.4s linear;
   /* для Firefox 4 */
