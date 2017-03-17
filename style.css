@@ -124,9 +124,7 @@ body{
 	width: 270px;
 	position: relative;
 	top: -20px;
-	margin: 40px auto;
-  padding:10px;
-    box-sizing: border-box;
+	box-sizing: border-box;
   
 }
 
@@ -156,6 +154,7 @@ body{
 	width: 270px;
 	list-style: none;
 	padding: 0;
+    box-sizing: border-box;
 
 }
 .menu ul{
@@ -272,6 +271,7 @@ text-align: left;
 	text-transform: uppercase;
 }
 .products{
+    float: right;
     margin-left: 30px;
 	background-color:  #f8f8f8;
 	width: 870px;
