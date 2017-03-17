@@ -196,8 +196,19 @@ body{
 		
 }
 .menu li a:hover{
-  color: #000;
-  background-color: #2F54FF;
+  font-family: Roboto;
+color: #ffffff;
+font-size: 14px;
+
+/* Приближение из-за подстановки шрифтов */
+
+font-weight: 900;
+line-height: 36px;
+
+/* Приближение из-за подстановки шрифтов */
+
+text-align: left;
+  background-color:  #333333;
 }
 .menu li:hover/*,
 .menu ul li a:hover*/{
