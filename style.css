@@ -320,6 +320,7 @@ text-align: left;
     height: 235px;
     margin-left: 10px;
     margin-top: 10px;
+    z-index: 0;
 }
 .new_product .np_blok .np_img img{
     display: block;
@@ -387,7 +388,25 @@ text-align: left;
     padding-top: 10px;
 }
 
-
+.new_product .np_blok .new{
+	width: 46px;
+	height: 46px;
+	background-image: url(img/New.png);
+	position: absolute;
+    left: 225px;
+	
+}
+.new_product .np_blok .new p{
+	display: block;
+	font-family: Roboto;
+	color:  #ffffff;
+	font-size: 9px;
+	font-weight: 400;
+	text-align: left;
+	text-transform: uppercase;
+	padding-top: 10px;
+	padding-left: 21px;
+}
 
 
 
@@ -410,9 +429,7 @@ text-align: left;
 	width: 46px;
 	height: 46px;
 	background-image: url(img/New.png);
-	position: absolute;
-	left: 214px;
-	top: -10px;
+	
 }
 .new p{
 	display: block;
