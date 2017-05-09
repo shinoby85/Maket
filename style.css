@@ -312,6 +312,7 @@ text-align: left;
     width: 270px;
     height: 320px;
     margin-bottom: 30px;
+    cursor: pointer;
 }
 .new_product .np_blok .np_img {
     background-color: #eaeaea;
@@ -372,10 +373,14 @@ text-align: left;
     margin-right: 14px;
     width: 80px;
 }
-
-
-
-
+.np_blok .np_blok_link{
+    display: block;
+    position: relative;
+    width: 270px;
+    height: 320px;
+    top: -10px;
+    padding-top: 10px;
+}
 
 
 
