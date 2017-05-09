@@ -313,6 +313,7 @@ text-align: left;
     height: 320px;
     margin-bottom: 30px;
     cursor: pointer;
+    position: relative;
 }
 .new_product .np_blok .np_img {
     background-color: #eaeaea;
@@ -355,7 +356,7 @@ text-align: left;
     font-size: 18px;
     /* Приближение из-за подстановки шрифтов */
     
-    font-w eight: 900;
+    font-weight: 900;
     font-style: italic;
     text-align-last: right;
     margin-top: 15px;
@@ -388,47 +389,12 @@ text-align: left;
     padding-top: 10px;
 }
 
-.new_product .np_blok .new{
+.new{
 	width: 46px;
 	height: 46px;
 	background-image: url(img/New.png);
 	position: absolute;
     left: 225px;
-	
-}
-.new_product .np_blok .new p{
-	display: block;
-	font-family: Roboto;
-	color:  #ffffff;
-	font-size: 9px;
-	font-weight: 400;
-	text-align: left;
-	text-transform: uppercase;
-	padding-top: 10px;
-	padding-left: 21px;
-}
-
-
-
-
-
-
-
-
-
-.products .top_pr{
-	width: 870px;
-	height: 400px;
-}
-.products .sale_pr{
-	width: 870px;
-	height: 400px;
-	margin-bottom: -10px;
-}
-.new{
-	width: 46px;
-	height: 46px;
-	background-image: url(img/New.png);
 	
 }
 .new p{
@@ -447,8 +413,7 @@ text-align: left;
 	height: 46px;
 	background-image: url(img/Hot.png);
 	position: absolute;
-	left: 214px;
-	top: -10px;
+    left: 225px;
 }
 .hot p{
 	font-family: Roboto;
@@ -460,6 +425,24 @@ text-align: left;
 	padding-top: 10px;
 	padding-left: 21px;
 }
+
+
+
+
+
+
+
+
+.products .top_pr{
+	width: 870px;
+	height: 400px;
+}
+.products .sale_pr{
+	width: 870px;
+	height: 400px;
+	margin-bottom: -10px;
+}
+
 .content .brand{
 	background-color:  #ffffff;
 	width: 1170px;
