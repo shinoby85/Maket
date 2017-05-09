@@ -286,7 +286,9 @@ text-align: left;
     
 }
 
-.new_product .product_text_box {
+.new_product .product_text_box,
+.top_pr .product_text_box,
+.sale_pr .product_text_box{
     display: block;
     overflow: hidden;
     font-family: Roboto;
@@ -299,14 +301,18 @@ text-align: left;
  text-transform: uppercase;
  margin: 25px 31px;
 }
-.new_product .np_content {
+.new_product .np_content,
+.top_pr .np_content,
+.sale_pr .np_content{
     float: left;
     height: 7 00px;
     width: 870px;
     text-align: justify;
     text-align-last: justify;
 }
-.new_product .np_blok {
+.new_product .np_blok,
+.top_pr .np_blok,
+.sale_pr .np_blok{
     display: inline-block;
     background-color: #ffffff;
     width: 270px;
@@ -315,7 +321,9 @@ text-align: left;
     cursor: pointer;
     position: relative;
 }
-.new_product .np_blok .np_img {
+.new_product .np_blok .np_img,
+.top_pr .np_blok .np_img,
+.sale_pr .np_blok .np_img{
     background-color: #eaeaea;
     width: 250px;
     height: 235px;
@@ -323,12 +331,16 @@ text-align: left;
     margin-top: 10px;
     z-index: 0;
 }
-.new_product .np_blok .np_img img{
+.new_product .np_blok .np_img img,
+.top_pr .np_blok .np_img img,
+.sale_pr .np_blok .np_img img{
     display: block;
 	width: 250px;
 	height: 235px;
 }
-.new_product .np_blok .text {
+.new_product .np_blok .text,
+.top_pr .np_blok .text,
+.sale_pr .np_blok .text{
     display: block;
     float: left;
     font-family: Roboto;
@@ -348,7 +360,9 @@ text-align: left;
     margin-left: 26px;
     margin-top: 15px;
 }
-.new_product .np_blok .sale_price {
+.new_product .np_blok .sale_price,
+.top_pr .np_blok .sale_price,
+.sale_pr .np_blok .sale_price{
     display: block;
     float: right;
     font-family: Roboto;
@@ -363,7 +377,9 @@ text-align: left;
     margin-right: 14px;
     width: 80px;
 }
-.new_product .np_blok .price {
+.new_product .np_blok .price,
+.top_pr .np_blok .price,
+.sale_pr .np_blok .price{
     display: block;
     float: right;
     font-family: Roboto;
@@ -379,14 +395,6 @@ text-align: left;
     margin-top: 8px;
     margin-right: 14px;
     width: 80px;
-}
-.np_blok .np_blok_link{
-    display: block;
-    position: relative;
-    width: 270px;
-    height: 320px;
-    top: -10px;
-    padding-top: 10px;
 }
 
 .new{
