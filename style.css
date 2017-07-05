@@ -1,4 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway:400,600,600i,700,700i,800,800i,900,900i');
+@import url('https://fonts.googleapis.com/css?family=Pattaya');
+@import url('https://fonts.googleapis.com/css?family=Cormorant+Infant:400,500,600,700&subset=cyrillic');
 *{
 	margin: 0;
 	padding: 0;
@@ -17,19 +19,70 @@ body{
 
 .header{
 	/*background-color:  #abeafa;*/
-	background-image: url(img/img_f.jpg);
+	background-image: url(img/img_fone.jpg);
 	background-repeat: no-repeat;
 	height: 700px;
 }
 .header .logo{
 	display: block;
-	width: 125px;
+	width: 111px;
 	height: 111px;
-	background-image: url(img/logo.png);
+	background-image: url(img/logo_1.png);
+    background-repeat: no-repeat;
 	float: left;
 	margin-top: 24px;
 	margin-left: 234px;
 }
+.h_social {
+    width: 160px;
+    height: 16px;
+    float: right;
+    margin-top: 50px;
+    margin-right: 229px;
+    text-align: center;
+}
+.h_social a{
+    display: block;
+    height: 16px;
+    width: 16px;
+}
+.h_social .h_face,
+.h_social .h_twit,
+.h_social .h_gplus,
+.h_social .h_youtub,
+.h_social .h_inst{
+    width: 16px;
+    height: 16px;
+    float: left;
+    margin-right: 16px;
+    background-repeat: no-repeat;
+}
+
+
+.h_social .h_face {
+    text-align: center;
+    background-image: url(img/b_face.png);
+    
+}
+.h_social .h_twit {
+    background-image: url(img/b_twit.png);
+}
+.h_social .h_gplus {
+    background-image: url(img/b_gplu.png);
+}
+.h_social .h_youtub {
+    background-image: url(img/b_yout.png);
+}
+.h_social .h_inst {
+    background-image: url(img/b_inst.png);
+}
+
+
+
+
+
+
+
 .header .box_velcom{
 
 	background-color:  #fff51f;
@@ -44,68 +97,83 @@ body{
 
 }
 .header .box_velcom h4{
-	font-family: 'Raleway';
+	font-family: 'Pattaya', sans-serif;
+    font-style: italic;
 	color:  #333333;
 	text-transform: uppercase;
-	font-size: 30px;/* Приближение из-за подстановки шрифтов */
+	font-size: 20px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
 	line-height: 30px;/* Приближение из-за подстановки шрифтов */
 	text-align: left;
-	margin-top: 82px;
+	margin-top: 20px;
 	margin-bottom: 24px;
 }
 .header .box_velcom p{
-	font-family: 'Raleway';
+	font-family: 'Pattaya', sans-serif;
 	color:  #333333;
 	font-size: 18px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
 	font-style: italic;
-	line-height: 14px;/* Приближение из-за подстановки шрифтов */
+	line-height: 20px;/* Приближение из-за подстановки шрифтов */
 	text-align: left;
 }
 
 .header .text{
 	float: right;
-	width: 313px;
-	height: 169px;
-	margin-top: 108px;
+	width: 513px;
+	height: 269px;
+	margin-top: 80px;
 	margin-right: 274px;
-}
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgba(255,255,255,0.8)
 
+}
+.header .text .label_prod{
+    float: left;
+    background-image: url(product/nabor_zd.jpg);
+    width: 196px;
+    height: 196px;
+    border-radius: 20px;
+    margin-left: 10px;
+    margin-right: 15px;
+    border: 2px solid #4AB8B9;
+}
 .header .text h3{
-	font-family: 'Raleway';
-	color:  #fff51f;
-	font-size: 48px;/* Приближение из-за подстановки шрифтов */
+	font-family: 'Cormorant Infant', serif;
+	color: #0475B7;
+	font-size: 35px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 700;
 	line-height: 34px;/* Приближение из-за подстановки шрифтов */
 	text-align: left;
+    overflow: hidden;
 }
 
 .header .text p{
-	font-family: 'Raleway';
-	color:  #fff51f;
+	font-family: 'Cormorant Infant', serif;
+	color:  #0475B7;
 	font-size: 18px;/* Приближение из-за подстановки шрифтов */
 	font-weight: 400;
-	line-height: 24px;/* Приближение из-за подстановки шрифтов */
+	line-height: 18px;/* Приближение из-за подстановки шрифтов */
 	text-align: left;
+    overflow: hidden;
 }
 .header .but_buy{
-	font-family: 'Raleway';
+	font-family: 'Cormorant Infant', serif;
 	display: block;
 	text-decoration: none;
 	background-color: #fff51f;
 	width: 124px;
     height: 49px;
-    float: right;
-    margin-right: 460px;
-    margin-top: 62px;
     color:  #000000;
     font-size: 14px;
-    font-weight: 800;
-    text-align: left;
-    padding-left: 28px;
+    font-weight:700;
+    text-align: center;
     padding-top: 20px;
     box-sizing: border-box;
+    position: relative;
+    top: -30px;
+    margin-left: 45px;
 }
 .content{
 	background-color: #f9f9f9;
