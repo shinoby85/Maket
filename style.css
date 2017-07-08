@@ -325,29 +325,55 @@
         /* указываем параметры анимированного перехода */
     }
     
-    .blok_data {
-        background-color: #e0e0e0;
+    .blok_d {
+        background-color: #F9F9F9;
         width: 270px;
-        height: 300px;
+        height: 700px;
         margin-top: 30px;
         float: left;
         clear: both;
-        padding-left: 142px;
-        padding-top: 129px;
+        /*padding-left: 142px;
+        padding-top: 129px;*/
         box-sizing: border-box;
+        display: flex;
+        flex-wrap: wrap;
+        -webkit-flex-direction: column;
+        -moz-flex-direction: column;
+        -ms-flex-direction: column;
+        -o-flex-direction: column;
+        flex-direction: column;
+        justify-content: space-between;
     }
     
-    .blok_data p {
-        font-family: Raleway;
+    .blok_d .data_blok {
+        padding: 10px;
+        width: 250px;
+        height: 320px;
+        background-color: white;
+        text-align: center;
+        border: 1px solid #26D2FC;
+        border-radius: 20px;
+        cursor: pointer;
+    }
+    
+    .blok_d .data_blok:hover {
+        background-color: #eafffe;
+    }
+    
+    .blok_d .data_blok img {
+        display: inline-block;
+        width: 250px;
+    }
+    
+    .blok_d .data_blok h3 {
+        font-family: 'Cormorant Infant', serif;
         color: #333333;
-        font-size: 36px;
-        /* Приближение из-за подстановки шрифтов */
-        font-weight: 800;
-        line-height: 36px;
-        /* Приближение из-за подстановки шрифтов */
-        text-align: left;
-        font-style: italic;
-        text-transform: uppercase;
+    }
+    
+    .blok_d .data_blok p {
+        font-family: 'Cormorant Infant', serif;
+        color: #333333;
+        text-align: justify;
     }
     
     .products {
