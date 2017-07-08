@@ -14,7 +14,7 @@
     
     .container {
         width: 1500px;
-        height: 3365px;
+        height: 2976px;
         margin: 0 auto;
     }
     
@@ -199,7 +199,7 @@
     
     .content {
         background-color: #f9f9f9;
-        height: 2291px;
+        height: 1881px;
         width: 1500px;
         padding: 0 165px;
         box-sizing: border-box;
@@ -381,11 +381,21 @@
         margin: 25px 31px;
     }
     
-    .new_product .np_content,
+    .new_product .np_content {
+        float: left;
+        height: 700px;
+        width: 870px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        /* text-align: justify;
+        text-align-last: justify;*/
+    }
+    
     .top_pr .np_content,
     .sale_pr .np_content {
         float: left;
-        height: 7 00px;
+        height: 320px;
         width: 870px;
         text-align: justify;
         text-align-last: justify;
@@ -401,6 +411,13 @@
         margin-bottom: 30px;
         cursor: pointer;
         position: relative;
+        left: 1px;
+        right: 1px;
+    }
+    
+    .np_blok:hover {
+        outline: 1px solid #c9c5c5;
+        outline-offset: -2px;
     }
     
     .new_product .np_blok .np_img,
@@ -485,7 +502,7 @@
         width: 46px;
         height: 46px;
         position: absolute;
-        left: 225px;
+        left: 224px;
     }
     
     .new {
@@ -528,7 +545,7 @@
         font-weight: bold;
     }
     
-    bgc .products .top_pr {
+    .products .top_pr {
         width: 870px;
         height: 400px;
     }
@@ -553,7 +570,7 @@
     .content .social {
         background-color: #eaeaea;
         width: 1170px;
-        height: 350px;
+        height: 250px;
         clear: both;
     }
     
