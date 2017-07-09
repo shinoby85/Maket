@@ -818,6 +818,25 @@ body {
     text-transform: capitalize;
 }
 
+.footer .f_category a,
+.footer .f_account a {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.footer .f_category a:hover,
+.footer .f_account a:hover {
+    text-decoration: none;
+    color: darkorange;
+}
+
+.footer .f_category a:active,
+.footer .f_account a:active,
+.footer .f_about .mail_adr:active {
+    text-decoration: none;
+    color: #0bbfaa;
+}
+
 .footer .f_category h3 {
     display: block;
     margin-bottom: font-family: Raleway;
@@ -909,7 +928,7 @@ body {
 }
 
 .footer .f_about {
-    width: 232px;
+    width: 300px;
     height: 162px;
     float: left;
     margin-left: 200px;
@@ -940,34 +959,30 @@ body {
 .footer .f_about .phone {
     display: block;
     float: left;
-    width: 42px;
+    width: 123px;
     height: 11px;
     font-family: Roboto;
     color: #ffffff;
     font-size: 14px;
-    /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 23.4px;
-    /* Приближение из-за подстановки шрифтов */
     text-align: left;
     margin-top: 14px;
+    clear: both;
 }
 
 .footer .f_about .p_number {
     display: block;
     float: left;
-    width: 99px;
+    width: 113px;
     height: 10px;
     font-family: Roboto;
     color: #ffffff;
     font-size: 14px;
-    /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 24px;
-    /* Приближение из-за подстановки шрифтов */
     text-align: left;
     margin-top: 14px;
-    margin-left: 18px;
 }
 
 .footer .f_about .mail {
@@ -999,6 +1014,10 @@ body {
     line-height: 22px;
     /* Приближение из-за подстановки шрифтов */
     text-align: left;
+}
+
+.footer .f_about a:hover {
+    color: darkorange;
 }
 
 .footer .f_nc {
@@ -1152,10 +1171,10 @@ body {
 .f_end p {
     display: block;
     float: left;
-    width: 399px;
+    width: 730px;
     font-family: Roboto;
     color: #dad9d9;
-    font-size: 12px;
+    font-size: 16px;
     /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 21.6px;
@@ -1163,7 +1182,7 @@ body {
     text-align: left;
 }
 
-.f_end .rss {
+.f_end .yout {
     display: block;
     overflow: hidden;
     float: right;
