@@ -391,13 +391,89 @@ body {
     float: left;
     width: 800px;
     height: 22px;
-    background-color: gray;
+    /*background-color: gray;*/
     margin-top: 1px;
     margin-left: 30px;
 }
 
 .br_crumbs p {
     font-size: 14px;
+}
+
+.br_crumbs {
+    text-align: left;
+}
+
+.br_crumbs ul {
+    display: inline-table;
+    list-style: none outside none;
+}
+
+.br_crumbs ul li {
+    display: inline;
+}
+
+.br_crumbs ul li a {
+    display: block;
+    float: left;
+    height: 14px;
+    color: #000000;
+    background: #26D2FC;
+    text-align: center;
+    padding: 2px 20px 0 20px;
+    position: relative;
+    margin: 3px 7px 0 0;
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.br_crumbs ul li a:after {
+    content: "";
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 6px solid #26D2FC;
+    position: absolute;
+    right: -6px;
+    top: 0;
+    z-index: 1;
+}
+
+.br_crumbs ul li a:before {
+    content: "";
+    border-bottom: 8px solid transparent;
+    border-left: 6px solid #EDEDED;
+    border-top: 8px solid transparent;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.br_crumbs ul li:first-child a {
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.br_crumbs ul li:first-child a:before {
+    display: none;
+}
+
+.br_crumbs ul li:last-child a {
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 20px;
+    background: none repeat scroll 0 0 #fa5ba5
+}
+
+.br_crumbs ul li:last-child a:after {
+    display: none;
+}
+
+.br_crumbs ul li a:hover {
+    background: none repeat scroll 0 0 #fa5ba5;
+}
+
+.br_crumbs ul li a:hover:after {
+    border-left-color: #fa5ba5;
 }
 
 .new_product {
