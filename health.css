@@ -198,7 +198,7 @@ body {
 
 .content {
     background-color: #ededed;
-    height: 1650px;
+    height: 1800px;
     width: 1500px;
     padding: 0 165px;
     box-sizing: border-box;
@@ -478,7 +478,7 @@ body {
 .new_product {
     background-color: #ededed;
     width: 870px;
-    height: 1635px;
+    height: 1794px;
 }
 
 .new_product .product_text_box,
