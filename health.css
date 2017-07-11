@@ -576,6 +576,25 @@ body {
     margin-top: 15px;
 }
 
+.new_product .np_blok .text_menu {
+    display: block;
+    float: left;
+    font-family: Roboto;
+    color: #333333;
+    font-size: 23px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 900;
+    font-style: italic;
+    line-height: 18.012px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    text-align-last: center;
+    width: 200px;
+    height: 29px;
+    margin-left: 26px;
+    margin-top: 15px;
+}
+
 .new_product .np_blok .sale_price,
 .top_pr .np_blok .sale_price,
 .sale_pr .np_blok .sale_price {
