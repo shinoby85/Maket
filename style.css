@@ -20,7 +20,7 @@ body {
 
 .header {
     /*background-color:  #abeafa;*/
-    background-image: url(img/img_fone.jpg);
+    background-image: url(Content/img/img_fone.jpg);
     background-repeat: no-repeat;
     height: 700px;
 }
@@ -29,7 +29,7 @@ body {
     display: block;
     width: 111px;
     height: 111px;
-    background-image: url(img/logo_1.png);
+    background-image: url(Content/img/logo_1.png);
     background-repeat: no-repeat;
     float: left;
     margin-top: 24px;
@@ -65,23 +65,23 @@ body {
 
 .h_social .h_face {
     text-align: center;
-    background-image: url(img/b_face.png);
+    background-image: url(content/img/b_face.png);
 }
 
 .h_social .h_twit {
-    background-image: url(img/b_twit.png);
+    background-image: url(content/img/b_twit.png);
 }
 
 .h_social .h_gplus {
-    background-image: url(img/b_gplu.png);
+    background-image: url(content/img/b_gplu.png);
 }
 
 .h_social .h_youtub {
-    background-image: url(img/b_yout.png);
+    background-image: url(content/img/b_yout.png);
 }
 
 .h_social .h_inst {
-    background-image: url(img/b_inst.png);
+    background-image: url(content/img/b_inst.png);
 }
 
 .header .box_velcom {
@@ -136,7 +136,7 @@ body {
 
 .header .text .label_prod {
     float: left;
-    background-image: url(product/nabor_zd.jpg);
+    background-image: url(Content/product/nabor_zd.jpg);
     width: 196px;
     height: 196px;
     border-radius: 20px;
@@ -623,7 +623,7 @@ body {
 }
 
 .new {
-    background-image: url(img/New.png);
+    background-image: url(Content/img/New.png);
 }
 
 .new p,
@@ -644,7 +644,7 @@ body {
 }
 
 .hot {
-    background-image: url(img/Hot.png);
+    background-image: url(Content/img/Hot.png);
 }
 
 .hot p {
@@ -653,7 +653,7 @@ body {
 }
 
 .sale {
-    background-image: url(img/Sale.png);
+    background-image: url(Content/img/Sale.png);
 }
 
 .sale p {
@@ -1108,7 +1108,7 @@ body {
 .footer .f_nc .aex {
     width: 36px;
     height: 22px;
-    background-image: url(img/aex.jpg);
+    background-image: url(Content/img/aex.jpg);
     float: left;
     margin-top: 45px;
 }
@@ -1116,7 +1116,7 @@ body {
 .footer .f_nc .mas_card {
     width: 36px;
     height: 22px;
-    background-image: url(img/mastercard.jpg);
+    background-image: url(Content/img/mastercard.jpg);
     float: left;
     margin-left: 10px;
     margin-top: 45px;
@@ -1125,7 +1125,7 @@ body {
 .footer .f_nc .maestro {
     width: 36px;
     height: 22px;
-    background-image: url(img/maestero.jpg);
+    background-image: url(Content/img/maestero.jpg);
     float: left;
     margin-left: 10px;
     margin-top: 45px;
@@ -1134,7 +1134,7 @@ body {
 .footer .f_nc .pp {
     width: 36px;
     height: 22px;
-    background-image: url(img/paypal.jpg);
+    background-image: url(Content/img/paypal.jpg);
     float: left;
     margin-left: 10px;
     margin-top: 45px;
@@ -1143,7 +1143,7 @@ body {
 .footer .f_nc .discover {
     width: 36px;
     height: 22px;
-    background-image: url(img/discover.jpg);
+    background-image: url(Content/img/discover.jpg);
     float: left;
     margin-left: 10px;
     margin-top: 45px;
@@ -1152,7 +1152,7 @@ body {
 .footer .f_nc .visa {
     width: 36px;
     height: 22px;
-    background-image: url(img/visa_straight.jpg);
+    background-image: url(Content/img/visa_straight.jpg);
     float: left;
     margin-left: 10px;
     margin-top: 45px;
