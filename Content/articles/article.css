@@ -126,7 +126,7 @@ body {
 .header .text {
     float: right;
     width: 540px;
-    height: 275px;
+    height: 303px;
     margin-top: 80px;
     margin-right: 274px;
     padding: 10px;
@@ -200,7 +200,7 @@ body {
 
 .content {
     background-color: #ededed;
-    height: 1800px;
+    /*height: 1800px;*/
     width: 1500px;
     padding: 0 165px;
     box-sizing: border-box;
@@ -390,6 +390,7 @@ body {
     text-align: justify;
     padding: 0 20px;
     box-sizing: border-box;
+    min-height: 1050px;
 }
 
 .products h2 {
@@ -422,22 +423,33 @@ body {
     margin: 15px;
 }
 
-.products p {
+.products p,
+.products a {
     font-family: 'Cormorant Infant', serif;
     font-size: 18px;
     text-indent: 25px;
     font-weight: 700;
 }
 
-.products ul {
+.products ul,
+.products ol {
     font-family: 'Cormorant Infant', serif;
     font-size: 18px;
     margin-top: 20px;
+    list-style-position: inside;
+    margin-bottom: 20px;
 }
 
-.products ul li {
-    margin-top: 5px;
-    margin-left: 35px;
+.products ul p,
+.products ol p {
+    text-decoration: underline;
+}
+
+.products ul li,
+.products ol li {
+    font-family: 'Cormorant Infant', serif;
+    font-size: 18px;
+    font-weight: 700;
 }
 
 .footer {
