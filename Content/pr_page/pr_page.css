@@ -131,7 +131,7 @@ body {
     margin-right: 274px;
     padding: 10px;
     border-radius: 20px;
-    background-color: rgba(255, 255, 255, 0.8)
+    background-color: rgba(255, 255, 255, 0.8);
 }
 
 .header .text .label_prod {
@@ -143,6 +143,8 @@ body {
     margin-left: 10px;
     margin-right: 15px;
     border: 2px solid #4AB8B9;
+    -webkit-background-size: cover;
+    background-size: cover;
 }
 
 .header .text h3 {
@@ -473,6 +475,134 @@ body {
 
 .br_crumbs ul li a:hover:after {
     border-left-color: #fa5ba5;
+}
+
+.prod_info {
+    width: 870px;
+    margin-top: 53px;
+    margin-left: 30px;
+}
+
+.prod_info img {
+    display: block;
+    float: left;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #eeeeee;
+    background-color: #eaeaea;
+    width: 350px;
+    height: 350px;
+}
+
+.prod_info .quick_info {
+    float: left;
+    margin-left: 45px;
+    width: 410px;
+}
+
+.prod_info .quick_info hr {
+    width: 350px;
+    margin: 18px auto;
+    background-color: rgba(51, 51, 51, 0.1);
+}
+
+.prod_info .quick_info h2 {
+    display: block;
+    font-family: 'Cormorant Infant', serif;
+    color: #0475B7;
+    font-size: 35px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-align: left;
+}
+
+.prod_info .quick_info h3 {
+    display: block;
+    margin-top: 50px;
+    font-family: 'Cormorant Infant', serif;
+    color: #0475B7;
+    font-size: 25px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 500;
+    font-style: italic;
+    line-height: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+    transform: scaleX(1.0058);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.prod_info .quick_info p {
+    font-family: 'Cormorant Infant', serif;
+    color: #707070;
+    font-size: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 16px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: left;
+}
+
+.prod_info .quick_info .buy_button {
+    margin: auto;
+    background-color: #fb4d01;
+    width: 130px;
+    height: 48px;
+}
+
+.prod_info .quick_info .buy_button a {
+    display: block;
+    width: 130px;
+    height: 48px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Roboto;
+    color: #ffffff;
+    font-size: 15.99px;
+    /* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    line-height: 20px;
+    /* Приближение из-за подстановки шрифтов */
+    text-align: center;
+    line-height: 48px;
+    transform: scaleY(1.0008);
+    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
+}
+
+.prod_info .title {
+    float: left;
+    clear: both;
+    margin-top: 42px;
+    background-color: #26d2fc;
+    width: 160px;
+    height: 35px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 35px;
+    margin-left: 15px;
+}
+
+.prod_info .title p {
+    font-family: 'Cormorant Infant', serif;
+    color: #333333;
+    font-weight: 900;
+    font-size: 16px;
+}
+
+.prod_info .prod_description {
+    width: 807px;
+    border: 1px solid #808080;
+    float: left;
+    padding: 15px;
+}
+
+.prod_info .prod_description p {
+    font-family: Verdana;
+    color: #808080;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 15px;
+    text-align: left;
 }
 
 .new,
