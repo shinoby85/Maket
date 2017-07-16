@@ -20,7 +20,7 @@ body {
 
 .header {
     /*background-color:  #abeafa;*/
-    background-image: url(../img/img_fone.jpg);
+    background-image: url(Content/img/img_fone.jpg);
     background-repeat: no-repeat;
     height: 700px;
 }
@@ -170,7 +170,7 @@ body {
 }
 
 .header .but_buy {
-    font-family: 'Cormorant Infant', serif;
+    font-family: Roboto;
     display: block;
     text-decoration: none;
     background-color: #fff51f;
@@ -188,7 +188,7 @@ body {
 }
 
 .header .but_buy:hover {
-    background-color: #ffbe0c;
+    background-color: #fb4d01;
 }
 
 .header .but_buy:active {

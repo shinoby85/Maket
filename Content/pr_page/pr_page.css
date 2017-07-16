@@ -65,23 +65,23 @@ body {
 
 .h_social .h_face {
     text-align: center;
-    background-image: url(img/b_face.png);
+    background-image: url(../img/b_face.png);
 }
 
 .h_social .h_twit {
-    background-image: url(img/b_twit.png);
+    background-image: url(../img/b_twit.png);
 }
 
 .h_social .h_gplus {
-    background-image: url(img/b_gplu.png);
+    background-image: url(../img/b_gplu.png);
 }
 
 .h_social .h_youtub {
-    background-image: url(img/b_yout.png);
+    background-image: url(../img/b_yout.png);
 }
 
 .h_social .h_inst {
-    background-image: url(img/b_inst.png);
+    background-image: url(../img/b_inst.png);
 }
 
 .header .box_velcom {
@@ -546,9 +546,17 @@ body {
 
 .prod_info .quick_info .buy_button {
     margin: auto;
-    background-color: #fb4d01;
+    background-color: #fff51f;
     width: 130px;
     height: 48px;
+}
+
+.prod_info .quick_info .buy_button:hover {
+    background-color: #fb4d01;
+}
+
+.prod_info .quick_info .buy_button:active {
+    background-color: #0BBFAA;
 }
 
 .prod_info .quick_info .buy_button a {
@@ -558,10 +566,11 @@ body {
     text-decoration: none;
     text-transform: uppercase;
     font-family: Roboto;
-    color: #ffffff;
+    color: #333333;
+    ;
     font-size: 15.99px;
     /* Приближение из-за подстановки шрифтов */
-    font-weight: 400;
+    font-weight: 700;
     line-height: 20px;
     /* Приближение из-за подстановки шрифтов */
     text-align: center;
