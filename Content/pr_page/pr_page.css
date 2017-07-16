@@ -536,7 +536,7 @@ body {
 .prod_info .quick_info p {
     font-family: 'Cormorant Infant', serif;
     color: #707070;
-    font-size: 16px;
+    font-size: 20px;
     /* Приближение из-за подстановки шрифтов */
     font-weight: 400;
     line-height: 16px;
@@ -547,7 +547,7 @@ body {
 .prod_info .quick_info .buy_button {
     margin: auto;
     background-color: #fff51f;
-    width: 130px;
+    width: 330px;
     height: 48px;
 }
 
@@ -561,22 +561,18 @@ body {
 
 .prod_info .quick_info .buy_button a {
     display: block;
-    width: 130px;
+    width: 330px;
     height: 48px;
     text-decoration: none;
     text-transform: uppercase;
     font-family: Roboto;
     color: #333333;
-    ;
-    font-size: 15.99px;
+    font-size: 16px;
     /* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    line-height: 20px;
+    line-height: 48px;
     /* Приближение из-за подстановки шрифтов */
     text-align: center;
-    line-height: 48px;
-    transform: scaleY(1.0008);
-    /* свойства ширины и высоты были исключены, поскольку было выполнено трансформирование */
 }
 
 .prod_info .title {
@@ -604,6 +600,36 @@ body {
     border: 1px solid #808080;
     float: left;
     padding: 15px;
+    font-family: 'Cormorant Infant', serif;
+    color: #808080;
+}
+
+.prod_info .prod_description h2 {
+    font-family: 'Cormorant Infant', serif;
+    color: #808080;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px;
+    text-transform: uppercase;
+}
+
+.prod_info .prod_description h3 {
+    font-family: 'Cormorant Infant', serif;
+    color: #808080;
+    font-size: 18px;
+    font-weight: 700;
+    margin: 5px;
+    text-decoration: underline;
+}
+
+.prod_info .prod_description ul {
+    list-style-position: inside;
+}
+
+.prod_info .prod_description ul li {
+    font-family: 'Cormorant Infant', serif;
+    color: #808080;
+    font-size: 16px;
 }
 
 .prod_info .prod_description p {
