@@ -604,13 +604,28 @@ body {
     color: #808080;
 }
 
-.prod_info .prod_description h2 {
+.prod_info .prod_description h2,
+.prod_info .prod_description a {
     font-family: 'Cormorant Infant', serif;
     color: #808080;
     font-size: 20px;
     font-weight: 600;
     margin: 10px;
     text-transform: uppercase;
+}
+
+.prod_info .prod_description a {
+    display: block;
+    margin-top: 10px;
+    color: blue;
+}
+
+.prod_info .prod_description a:hover {
+    color: #fb4d01;
+}
+
+.prod_info .prod_description a:active {
+    color: #0bbfaa;
 }
 
 .prod_info .prod_description h3 {
