@@ -65,23 +65,23 @@ body {
 
 .h_social .h_face {
     text-align: center;
-    background-image: url(img/b_face.png);
+    background-image: url(../img/b_face.png);
 }
 
 .h_social .h_twit {
-    background-image: url(img/b_twit.png);
+    background-image: url(../img/b_twit.png);
 }
 
 .h_social .h_gplus {
-    background-image: url(img/b_gplu.png);
+    background-image: url(../img/b_gplu.png);
 }
 
 .h_social .h_youtub {
-    background-image: url(img/b_yout.png);
+    background-image: url(../img/b_yout.png);
 }
 
 .h_social .h_inst {
-    background-image: url(img/b_inst.png);
+    background-image: url(../img/b_inst.png);
 }
 
 .header .box_velcom {
@@ -465,12 +465,6 @@ body {
     box-sizing: border-box;
 }
 
-.footer .f_end {
-    background-color: #333333;
-    width: 1500px;
-    height: 47px;
-}
-
 .footer .f_category {
     width: 84px;
     height: 162px;
@@ -589,7 +583,7 @@ body {
 }
 
 .footer .f_about {
-    width: 300px;
+    width: 380px;
     height: 162px;
     float: left;
     margin-left: 200px;
@@ -635,7 +629,7 @@ body {
 .footer .f_about .p_number {
     display: block;
     float: left;
-    width: 113px;
+    width: 250px;
     height: 10px;
     font-family: Roboto;
     color: #ffffff;
@@ -827,7 +821,7 @@ body {
     box-sizing: border-box;
     background-color: #333333;
     width: 1500px;
-    height: 47px;
+    height: 70px;
 }
 
 .f_end p {
@@ -842,6 +836,16 @@ body {
     line-height: 21.6px;
     /* Приближение из-за подстановки шрифтов */
     text-align: left;
+}
+
+.f_end a {
+    font-family: Roboto;
+    color: #faef03;
+    font-size: 14px;
+}
+
+.f_end a:hover {
+    color: darkorange;
 }
 
 .f_end .yout {
