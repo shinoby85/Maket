@@ -575,6 +575,12 @@ body {
     text-align: center;
 }
 
+.prod_info .quick_info span {
+    font-size: 16px;
+    font-weight: 700;
+    color: red;
+}
+
 .prod_info .title {
     float: left;
     clear: both;
