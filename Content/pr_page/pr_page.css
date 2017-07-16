@@ -601,13 +601,13 @@ body {
     float: left;
     padding: 15px;
     font-family: 'Cormorant Infant', serif;
-    color: #808080;
+    color: #000000;
 }
 
 .prod_info .prod_description h2,
 .prod_info .prod_description a {
     font-family: 'Cormorant Infant', serif;
-    color: #808080;
+    color: #000000;
     font-size: 20px;
     font-weight: 600;
     margin: 10px;
@@ -630,7 +630,7 @@ body {
 
 .prod_info .prod_description h3 {
     font-family: 'Cormorant Infant', serif;
-    color: #808080;
+    color: #000000;
     font-size: 18px;
     font-weight: 700;
     margin: 5px;
@@ -643,15 +643,16 @@ body {
 
 .prod_info .prod_description ul li {
     font-family: 'Cormorant Infant', serif;
-    color: #808080;
+    color: #000000;
     font-size: 16px;
+    font-weight: 600;
 }
 
 .prod_info .prod_description p {
     font-family: 'Cormorant Infant', serif;
-    color: #808080;
+    color: #000000;
     font-size: 16px;
-    font-weight: 400;
+    font-weight: 600;
     line-height: 15px;
     text-align: justify;
     text-indent: 15px;
