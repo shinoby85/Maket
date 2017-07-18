@@ -632,6 +632,7 @@ body {
 
 .prod_info .prod_description a:active {
     color: #0bbfaa;
+    margin-top: 11px;
 }
 
 .prod_info .prod_description h3 {
