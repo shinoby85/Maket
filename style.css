@@ -97,7 +97,7 @@ body {
 }
 
 .header .box_velcom h4 {
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Cormorant Infant', serif;
     font-style: italic;
     color: #333333;
     text-transform: uppercase;
@@ -112,21 +112,21 @@ body {
 }
 
 .header .box_velcom p {
-    font-family: 'Pattaya', sans-serif;
+    font-family: 'Cormorant Infant', serif;
     color: #333333;
-    font-size: 18px;
+    font-size: 21px;
     /* Приближение из-за подстановки шрифтов */
-    font-weight: 700;
     font-style: italic;
     line-height: 20px;
     /* Приближение из-за подстановки шрифтов */
     text-align: left;
+    font-weight: 700;
 }
 
 .header .text {
     float: right;
-    width: 513px;
-    height: 269px;
+    width: 540px;
+    height: 275px;
     margin-top: 80px;
     margin-right: 274px;
     padding: 10px;
@@ -183,7 +183,7 @@ body {
     padding-top: 20px;
     box-sizing: border-box;
     position: relative;
-    top: -30px;
+    top: -20px;
     margin-left: 45px;
 }
 
@@ -193,7 +193,7 @@ body {
 
 .header .but_buy:active {
     background-color: #0bbfaa;
-    top: -29px;
+    top: -19px;
     left: -1px;
 }
 
@@ -501,9 +501,10 @@ body {
 .new_product .np_content {
     float: left;
     height: 700px;
-    width: 870px;
+    width: 860px;
     display: flex;
     flex-wrap: wrap;
+    padding-left: 3px;
     justify-content: space-between;
     /* text-align: justify;
         text-align-last: justify;*/
@@ -513,7 +514,8 @@ body {
 .sale_pr .np_content {
     float: left;
     height: 320px;
-    width: 870px;
+    width: 860px;
+    padding-left: 3px;
     text-align: justify;
     text-align-last: justify;
 }
@@ -533,8 +535,7 @@ body {
 }
 
 .np_blok:hover {
-    outline: 1px solid #26D2FC;
-    outline-offset: -2px;
+    box-shadow: 0 0 10px #26D2FC;
 }
 
 .new_product .np_blok .np_img,
