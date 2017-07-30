@@ -522,7 +522,14 @@ body {
     left: 1px;
     right: 1px;
 }
-
+.new_product .none{
+    background-color: #EDEDED;
+    cursor:default;
+}
+.new_product .none:hover{
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
 .np_blok:hover {
     box-shadow: 0 0 10px #26D2FC;
 }
