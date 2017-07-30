@@ -501,7 +501,7 @@ body {
 .new_product .np_content {
     float: left;
     height: 700px;
-    width: 870px;
+    width: 860px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
@@ -509,18 +509,9 @@ body {
         text-align-last: justify;*/
 }
 
-.top_pr .np_content,
-.sale_pr .np_content {
-    float: left;
-    height: 320px;
-    width: 870px;
-    text-align: justify;
-    text-align-last: justify;
-}
 
-.new_product .np_blok,
-.top_pr .np_blok,
-.sale_pr .np_blok {
+
+.new_product .np_blok{
     display: inline-block;
     background-color: #ffffff;
     width: 270px;
@@ -533,13 +524,10 @@ body {
 }
 
 .np_blok:hover {
-    outline: 1px solid #26D2FC;
-    outline-offset: -2px;
+    box-shadow: 0 0 10px #26D2FC;
 }
 
-.new_product .np_blok .np_img,
-.top_pr .np_blok .np_img,
-.sale_pr .np_blok .np_img {
+.new_product .np_blok .np_img {
     background-color: white;
     width: 250px;
     height: 235px;
@@ -548,17 +536,13 @@ body {
     z-index: 0;
 }
 
-.new_product .np_blok .np_img img,
-.top_pr .np_blok .np_img img,
-.sale_pr .np_blok .np_img img {
+.new_product .np_blok .np_img img {
     display: block;
     width: 250px;
     height: 235px;
 }
 
-.new_product .np_blok .text,
-.top_pr .np_blok .text,
-.sale_pr .np_blok .text {
+.new_product .np_blok .text{
     display: block;
     float: left;
     font-family: Roboto;
@@ -596,9 +580,7 @@ body {
     margin-top: 15px;
 }
 
-.new_product .np_blok .sale_price,
-.top_pr .np_blok .sale_price,
-.sale_pr .np_blok .sale_price {
+.new_product .np_blok .sale_price {
     display: block;
     float: right;
     font-family: Roboto;
@@ -613,9 +595,7 @@ body {
     width: 80px;
 }
 
-.new_product .np_blok .price,
-.top_pr .np_blok .price,
-.sale_pr .np_blok .price {
+.new_product .np_blok .price{
     display: block;
     float: right;
     font-family: Roboto;
@@ -681,16 +661,6 @@ body {
     font-weight: bold;
 }
 
-.products .top_pr {
-    width: 870px;
-    height: 400px;
-}
-
-.products .sale_pr {
-    width: 870px;
-    height: 400px;
-    margin-bottom: -10px;
-}
 
 .content .brand {
     background-color: #ffffff;
