@@ -201,7 +201,7 @@ body {
 
 .content {
     background-color: #ededed;
-    min-height: 1800px;
+   /* min-height: 1800px;*/
     width: 1500px;
     padding: 0 165px;
     box-sizing: border-box;
