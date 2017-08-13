@@ -305,10 +305,7 @@ body {
     background-color: #84e8ff;
     font-family: Roboto;
     color: #333333;
-    font-size: 14px;
-    /*14*/
-    line-height: 36px;
-    /*36*/
+   
 }
 
 .menu li:hover ul li {
